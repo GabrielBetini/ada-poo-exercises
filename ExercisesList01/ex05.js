@@ -5,9 +5,9 @@ class Retangulo {
 		(this.largura = largura), (this.altura = altura);
 	}
 
-	calcularArea = () => {
+	calcularArea() {
 		return (this.largura * this.altura) / 2;
-	};
+	}
 }
 
 let ret = new Retangulo(300, 200);
