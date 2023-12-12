@@ -41,7 +41,7 @@ class Dragao {
 
 		if (this.cargaHabilidade < this.limiteHabilidade) {
 			++this.cargaHabilidade;
-			console.log(`${this.nome} se alimentou. (+1 Carga de Fogo | +30 de Saúde)`);
+			console.log(`${this.nome} se alimentou. (+1 Carga de Habilidade | +30 de Saúde)`);
 		} else {
 			console.log(`${this.nome} não quer se alimentar no momento.`);
 		}
